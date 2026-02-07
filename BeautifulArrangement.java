@@ -22,7 +22,7 @@ public class BeautifulArrangement {
             tempArr[i] = i;
         }
 
-        // Improving memory usage by avoid keeping isAlreadyAdded Array.
+        // Improving space complexity by avoid keeping isAlreadyAdded Array.
         count = 0;
         findPermutation(tempArr, 1);
         return count;
